@@ -1,2 +1,9 @@
 # L5-Banana-Speak
- A trranslation website to translate language to banana using VANILLA JS AND JAVASCRIPT
+#  using VanillaJS and Javascript.
+--- 
+
+ A website to translate english language to banana using VANILLA JS AND JAVASCRIPT.
+
+ ---
+
+
