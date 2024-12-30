@@ -6,6 +6,19 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Banana Speak </title>
       <style>
+            h1{
+                  font-style: italic;
+                  background-color: yellow;
+                  padding:2rem;
+                  text-align: center;
+                  border-radius: 0rem;
+            }
+            button{
+                  background-color: yellow;
+                  padding: 6px;
+                  text-align: center;
+                  
+            }
             textarea {
                   width: 80%;
                   height: 10vh;
@@ -20,17 +33,26 @@
                   display: block;
                   height: 2rem;
                   border: solid black;
+                  padding: 1rem 1rem 2rem 1rem;
+                  border-radius: 1rem;
             }
 
             #output {
                   width: 80%;
                   height: 10vh;
                   border: solid black;
-                  background-color: #e0e0e0;
+                  background-color: white;
                   text-align: center;
                   padding: 1rem;
                   display: block;
                   margin: 1rem;
+            }
+            footer{
+                  background-color: yellow;
+                  padding: 2rem 1rem;
+                  text-align: center;
+                  color: black;
+                  border-radius: 1rem;
             }
       </style>
 </head>
@@ -38,11 +60,16 @@
 <body>
       <h1> Talk Banana ! </h1>
       <hr>
-      <p>Enter ur text here</p>
+      <p>Enter ur text below ! </p>
       <textarea id="txt-input" placeholder="enter ur text here and we will translate to banana language"></textarea>
       <button id="click-action"> <b>Translate </b></button>
-      </div> output will come down. </div>
+      </div> output will come down here. </div>
       <div id="output"> </div>
+      <br>
+      <br>
+      <br>
+      <footer> <b> About Minions </b> <br> <br> Minions are small, yellow, mischievous creatures introduced in the 2010 film Despicable Me. Created by Illumination Entertainment, they are known for their love of bananas and their childlike behavior. Originating as a comedic sidekick in the Despicable Me franchise, they gained popularity and starred in their own 2015 spin-off. </footer>
+      
 
       <!-- Source App.js here  -->
       <script src="app.js" type="text/javascript"> </script>
