@@ -16,12 +16,18 @@
             }
 
             button {
+                  width: 80%;
+                  /* Optional: control width for the container */
+                  max-width: 600px;
                   background-color: #F2C94C;
                   padding: 6px;
                   text-align: center;
             }
 
-            textarea{ 
+            textarea {
+                  width: 80%;
+                  /* Optional: control width for the container */
+                  max-width: 600px;
                   font-family: 'Kalam', cursive;
                   width: 80%;
                   height: 10vh;
@@ -32,8 +38,8 @@
                   margin: auto;
             }
 
-            button {
-                  order: none;
+            button { display:grid ;
+                  text-align: center;
                   margin: 1rem 0rem;
                   padding: 1rem 2rem;
                   font-family: 'Kalam', cursive;
@@ -41,6 +47,9 @@
             }
 
             #output {
+                  width: 80%;
+                  /* Optional: control width for the container */
+                  max-width: 600px;
                   width: 80%;
                   height: 10vh;
                   border: solid black;
@@ -52,14 +61,24 @@
                   margin: auto;
             }
 
-            footer {
+            footer { margin:0px;
+                  width:100%;
+                  height:10vh;
                   background-color: #F2C94C;
                   padding: 2rem 1rem;
                   text-align: center;
                   color: black;
                   border-radius: 1rem;
             }
-            
+
+            p {
+                  display: flex;
+                  /* Makes the body a flex container */
+                  justify-content: center;
+                  /* Centers the element horizontally */
+                  align-items: center;
+
+            }
       </style>
 </head>
 
@@ -69,7 +88,7 @@
       <p> Enter ur text below ! </p>
       <textarea id="txt-input" placeholder="enter ur text here and we will translate to banana language"></textarea>
       <button id="click-action"> <b>Translate to Banana </b></button><br>
-      </div> output will come down here. </div>
+      <p> output will come down here. </p>
       <div id="output"> </div>
       <br>
       <br>
